@@ -1,0 +1,503 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height: 10vh;
+    width: 97vw;
+    background-color: rgb(246, 250, 250);
+    box-shadow:  4px 6px 11px 0px grey;
+    color: rgb(228, 5, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    z-index: 10;
+}
+.navbar> :nth-child(1){
+    padding-top: -50px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.logo{
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+}
+.btn1{
+    border: 2px solid rgb(238, 12, 87);
+    color: rgb(238, 12, 87);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease ;
+}
+.btn1:hover{
+    transform: scale(1.2 , 1.2);
+    color: rgb(7, 7, 7);
+    background-color: rgb(238, 12, 87);
+    cursor: progress;
+   
+}
+
+
+.btn2{
+    border: 2px solid rgb(238, 12, 87);
+    background-color:rgb(238, 12, 87) ;
+    padding-top: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+.btn2:hover{
+    transform: scale(1.2 , 1.2);
+    color: rgb(238, 12, 87);
+    background-color: rgb(252, 248, 249);
+}
+.body1{
+    height:100vh ;
+    width: 100vw;
+    background-image: url(./images/chef.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part1{
+    margin-left: 20px;
+    height:30vh ;
+    width: 35vw;
+   color: white;
+    padding-left: 10px;
+}
+.part2{
+    margin-left: 20px;
+    height:100vh ;
+    width: 35vw;
+    background-color: rgb(246, 246, 247);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+  
+}
+input{
+    padding:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    background-color:rgb(220, 219, 217);
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
+.btn3{
+    border: 2px solid rgb(238, 12, 87);
+    background-color:rgb(238, 12, 87) ;
+    padding:10px 20px 10px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+.btn3:hover{
+    transform: scale(0.85 , 0.85);
+    color: rgb(7, 7, 7);
+    background-color: rgb(238, 12, 87);
+    cursor: progress;
+   
+}
+.page2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+.heading> :nth-child(2){
+    color:rgb(238, 12, 87) ;
+    
+}
+.page2> div{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.part2body{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.para{
+    color: rgb(122, 121, 121);
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.item{
+    height: 40vh;
+    width: 20vw;
+   
+}
+.itemimg{
+   padding-left: 40px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.item> :nth-child(2){
+   font-size: small;
+}
+.page3{
+    
+    height: 80vh;
+    width: 95vw;
+    margin: auto;
+    background-color:rgb(238, 12, 87) ;
+    position: relative;
+}
+.video{
+    background-image: url(./images/video\ img.jpg);
+    border-radius: 10px;
+    background-position: center;
+ background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 80vw;
+    position: absolute;
+    top:-20px;
+    left:80px;
+
+}
+.nextpagebody{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.nextpageitem{
+    background-color:rgb(238, 233, 233);
+    height: 50vh;
+    width: 20vw;
+    border-radius: 20px;
+ 
+   
+}
+.nextpageimg1{
+   margin: auto;
+     height: 20vh;
+     width: 10vw;
+     border-radius: 10px;
+     background-image: url(./images/foodpanda1.jpg);
+     background-position: center;
+     background-size: cover;
+ }
+ .nextpageimg2{
+    margin: auto;
+      height: 20vh;
+      width: 10vw;
+      border-radius: 10px;
+      background-image: url(./images/foodpanda2.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  .nextpageimg3{
+    margin: auto;
+      height: 20vh;
+      width: 10vw;
+      border-radius: 10px;
+      background-image: url(./images/foodpanda3.png);
+      background-position: center;
+      background-size: cover;
+  }
+  .nextpageimg4{
+    margin: auto;
+      height: 20vh;
+      width: 10vw;
+      border-radius: 10px;
+      background-image: url(./images/foodpanda4.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+
+
+.page4{
+    margin-top: 50px;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page4> :nth-child(1){
+    border-radius: 10px;
+    background-image: url(./images/image1.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+height:45vh ;
+width: 50vw;
+}
+.page4> :nth-child(2){
+   text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(238, 12, 87) ;
+    height:45vh ;
+    width: 50vw;
+    }
+    .page4> :nth-child(3){
+        text-align: center;
+        font-size:x-large;
+        font-weight: bolder;
+        color: white;
+        background-color:rgb(238, 12, 87) ;
+        height:45vh ;
+        width: 50vw;
+        }
+        .page4> :nth-child(4){
+            background-image: url(./images/image2.PNG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+           
+            height:45vh ;
+            width: 50vw;
+            }
+            .page5{
+                height: 80vh;
+                width: 70vw;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+               
+            }
+            .page5> :nth-child(1){
+                padding-bottom: 5px;
+            }
+            .page5item{
+                font-size: larger;
+                font-weight: lighter;
+                margin: auto;
+                height: 10vh;
+                width: 50vw;
+                padding-left: 20px;
+                border-bottom: 2px solid rgb(171, 168, 168);
+
+            }
+    
+            .page6{
+                width: 90vw;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid rgb(86, 85, 85);
+            }
+            .page6> div{
+                color: white;
+                padding: 100px 10px 10px 30px;
+                height: 20vh;
+                width: 20vw;
+                background-color: rgb(211, 208, 208);
+
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .page6img{
+                height: 7vh;
+                width: 15vw;
+            }
+            .footer{
+                padding-top: 30px;
+                background-color: rgb(211, 208, 208);
+                height: 15vh;
+                width: 90vw;
+                margin: auto;
+            }
+            @media only screen and (min-width:200px) and (max-width:800px) {
+                .body1{
+                    height:45vh ;
+                    width: 100vw;
+                    margin-bottom: 40vh;
+                }
+                .part1{
+                    margin: auto;
+                    height:30vh ;
+                    width: 60vw;
+                }
+                .part2{
+                    margin:auto;
+                    height:100vh ;
+                    width: 65vw;
+                }
+            
+                .part2body{
+                    margin-top: 30px;
+                    height: 90vh;
+                    width: 80vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+
+                .page2> div{
+                    font-size: larger;
+                    font-weight: bold;
+               
+                } 
+              
+                .para{
+                    font-size:xx-small;
+                    padding-left:20px;
+                    padding-left:20px;
+                }
+                h3{
+                    text-align: center;
+                    font-size: x-small;
+                }
+                .item{
+                   
+                    height: 20vh;
+                    width: 55vw;
+                   
+                   
+                }
+                .itemimg{
+                  margin-left:55px ;
+                    height: 80px;
+                
+                }
+                .item> :nth-child(2){
+                   font-size: small;
+                }
+                .video{
+                    left:40px;
+                
+                }
+
+
+                .nextpagebody{
+                    height: 130vh;
+                    width: 100vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                   
+                }
+                
+                .nextpageitem{
+                    background-color:rgb(238, 233, 233);
+                    height: 25vh;
+                    width: 50vw;
+                    border-radius: 20px;
+                 
+                   
+                }
+                .nextpageimg1{
+                    margin-top: 10px;
+      
+                     height: 10vh;
+                     width: 25vw;
+                    
+                 }
+                 .nextpageimg2{
+                    margin-top: 10px;
+                      height: 10vh;
+                      width: 25vw;
+            
+                  }
+                  .nextpageimg3{
+                    margin-top: 10px;
+                      height: 10vh;
+                      width: 25vw;
+                      
+                  }
+                  .nextpageimg4{
+                    margin-top: 10px;
+                      height:10vh;
+                      width: 25vw;
+                     
+                  }
+
+                  
+
+                .page5{
+                    height: 50vh;
+
+                   
+                }
+             
+                .page5> :nth-child(1){
+                    padding-bottom: 5px;
+                    font-size:xx-large;
+                }
+                .page5item{
+                    font-size:x-small;
+                    font-weight: bolder;
+                    height: 5vh;
+                    width: 65vw;
+                    padding-bottom: 5px;
+                    
+    
+                }
+                .page6{
+                    width: 50vw;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: white;
+                }
+                .page6> div{
+                    color: rgb(11, 11, 11);
+                    padding: 20px 10px 30px 30px;
+                    height: 15vh;
+                    background-color: white;
+                   
+                }
+                a{
+                    color: rgb(8, 8, 8);
+                    
+                }
+                .page6img{
+                    height: 7vh;
+                    width: 15vw;
+                }
+                .footer{
+                    padding-top: 30px;
+                    background-color: white;
+                    color: rgb(2, 2, 2);
+                    height: 10vh;
+                    width: 90vw;
+                    margin: auto;
+                }
+             
+             
+                
+            }

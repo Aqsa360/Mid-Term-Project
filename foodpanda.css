@@ -1,0 +1,621 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    height: 15vh;
+    width: 95vw;
+    background-color: rgb(246, 250, 250);
+    box-shadow:  4px 6px 11px 0px grey;
+    color: rgb(228, 5, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    z-index: 10;
+    border-radius: 3px;
+    border: none;
+}
+.navbar> :nth-child(1){
+    padding-top:0px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.logo{
+    margin-top: 20px;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+}
+.btn1{
+    margin-top: 20px;
+    border: 2px solid rgb(238, 12, 87);
+    color: rgb(238, 12, 87);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease ;
+}
+.btn1:hover{
+    transform: scale(1.2 , 1.2);
+    color: rgb(7, 7, 7);
+    background-color: rgb(238, 12, 87);
+    cursor: progress;
+   
+}
+.btn2{
+    margin-top: 20px;
+    border: 2px solid rgb(238, 12, 87);
+    background-color:rgb(238, 12, 87) ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+.btn2:hover{
+    transform: scale(1.2 , 1.2);
+    color: rgb(238, 12, 87);
+    background-color: rgb(252, 248, 249);
+}
+.page1{
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+ 
+  height: 90vh;
+  width: 100vw;
+}
+.part1{
+   
+    padding-top:150px;
+    padding-left: 50px;
+  height: 80vh;
+  width: 50vw;
+}
+.part1> :nth-child(1){
+    margin-bottom: 10px;
+    font-size:40px;
+    font-weight: bolder;
+}
+.buttons{
+   height: 15vh;
+   width: 50vw;
+   background-color: none;
+   /* box-shadow:0px 7px 15px 1px grey; */
+   border-radius:10px ;
+}
+input{
+    margin-left: 5px;
+    margin-top:15px;
+    height: 7vh;
+    width: 30vw;
+    border-radius: 10px;
+    padding:5px 5px 5px 5px;
+    border: 2px solid gray;
+    box-shadow:0px 7px 15px 1px grey;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+input:hover{
+    cursor: pointer;
+    transform: scale(0.97 , 0.97);
+}
+.btn3{
+    height: 10vh;
+    border: 2px solid rgb(238, 12, 87);
+    background-color:rgb(238, 12, 87) ;
+    padding:10px 10px 10px 5px;
+    border-radius: 10px;
+    box-shadow:0px 7px 15px 1px grey;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+.btn3:hover{
+    cursor: pointer;
+    transform: scale(0.97 , 0.97);
+}
+.part2{
+
+    height: 80vh;
+    width: 50vw; 
+    background-image: url(./images/foodpanda1.PNG);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+.page2{
+  
+    width: 80vw;
+    height: 20vh;
+   /* padding-top: 30px; */
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* card */
+.mainbox{
+    height: 70vh;
+    width: 100vw;
+    position: absolute;
+    top:850px;
+    background-image: url(./images/food.PNG);
+    z-index: -1;
+   
+    background-size: cover;
+    border: none;
+    border-radius:0px;
+}
+.page3{
+   border:3px solid white;
+    background-color:whitesmoke;
+    z-index:1;
+    height: 50vh;
+    width: 500px;
+    padding:10px 20px 20px 20px;
+    margin:250px 0px 0px 30px;
+    border-radius:15px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+.page3> :nth-child(1){
+    padding-bottom: 20px;
+}
+.page3> :nth-child(2){
+    padding-bottom: 20px;
+}
+.page3> :nth-child(3){
+    padding-bottom: 20px;
+}
+.page3> :nth-child(4){
+    padding-bottom: 20px;
+}
+.btn4{
+    background-color:rgb(252, 3, 107);
+    color:white;
+    padding:10px 10px 10px 10px;
+    border-color:rgb(252, 3, 107);
+    border-radius:10px;
+    z-index:1;
+    transform: scale(1 , 1);
+    transition: transform 0.5s ease 1s;
+}
+.btn4:hover{
+    cursor: pointer;
+    transform: scale(1.2 , 1.2);
+}
+.page4{
+    width: 80vw;
+    height: 20vh;
+   padding-top: 30px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.page5{
+    margin: auto;
+    height: 200vh;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    /* position:relative; */
+   
+   
+}
+.page5item{
+    position:relative;
+}
+.page5img{
+    /* position:relative; */
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+.text1{
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+top:130px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(3, 3, 3);
+    border:2px solid whitesmoke;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center ;
+}
+
+.page6{
+    width: 80vw;
+    height: 20vh;
+   padding-top: 30px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.page7{
+    border-radius: 10px;
+    height: 70vh;
+    width: 85vw;
+    margin: auto;
+    background-color: rgb(245, 12, 90);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.part7a{
+    padding-left: 10px;
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.part7a> :nth-child(1){
+    font-size:x-large;
+    font-weight: bolder;
+}
+.part7a> :nth-child(3){
+    height: 70px;
+    width: 280px;
+    margin-left:20px;
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.barcode{
+    height: 80px;
+    width: 70px;
+    margin: auto;
+}
+.part7aimg{
+    height: 50px;
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 2px;
+
+}
+.part7b{
+    height: 90vh;
+    width: 50vw;
+    background-image: url(./images/mobile.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top:-80px
+}
+.page8{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+}
+.page8> :nth-child(1){
+    padding-left: 10px;
+    font-size:xx-large;
+    font-weight: bolder;
+    margin-bottom: 50px;
+   
+}
+    .page8img{
+  height: 60vh;
+    width: 100vw;
+    background-image: url(./images/page8img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -5;
+  
+}
+.page8card{
+    height: 30vh;
+    width: 40vw;
+    box-shadow:  1px 0px 15px 1px grey;
+    position: absolute;
+    top: 400px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 40px;
+padding: 20px 10px 10px 20px;
+  
+    
+}
+.page8card> :nth-child(1){
+    padding-bottom: 10px;
+}
+.page8card> :nth-child(2){
+    padding-bottom: 20px;
+}
+.page11{
+    width: 95vw;
+    height: 20vh;
+    margin: auto;
+ border-top: 2px solid rgb(156, 153, 153);
+ border-bottom: 2px solid rgb(156, 153, 153);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+}
+.page11 > a{
+    color: rgb(0, 0, 0);
+}
+.page11 > span{
+    color: rgb(108, 106, 106);
+}
+.page10{
+    width: 95vw;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+
+}
+.page10 > (p) {
+    padding-bottom: 20px;
+}
+.page12{
+ 
+    height: 100vh;
+    width: 95vw;
+    margin: auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    border-bottom:rgb(88, 86, 86); ;
+}
+.page12 > div{
+    color: rgb(88, 86, 86);
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-content: space-between;
+
+}
+ .page12>  :nth-child(1){
+    padding-top: 30px;
+}
+a{
+    color: rgb(88, 86, 86);
+}
+@media only screen and (max-width:800px) {
+    .navbar{
+        height: 15vh;
+    }
+    .page1{
+    
+        height: 100vh;
+        width: 100vw;
+      }
+      .part1{
+          padding-top:75px;
+        height: 40vh;
+        width: 50vw;
+      }
+      .part1> :nth-child(1){
+        
+          font-size:20px;
+          font-weight: bold;
+      }
+      .buttons{
+      
+         height: 15vh;
+         width: 30vw;
+         box-shadow: none;
+         border-radius:10px ;
+      }
+      input{
+        
+          margin: auto;
+          height: 7vh;
+          width: 80vw;
+          margin-bottom: 3px;
+        
+      }
+      .btn3{
+       height: 10vh;
+       width: 82vw;
+       margin: auto;
+       margin-bottom: none;
+      }
+      .part2{
+
+        height: 30vh;
+        width: 50vw; 
+        
+    }
+    .page2{
+       
+         width: 90vw;
+         height: 15vh;
+        padding-top: 20px;
+        margin-top: -345px;
+         font-size: 30px;
+         font-weight: bold;
+     }
+     .mainbox{
+       width: 100vw;
+        position: absolute;
+        top:700px;
+        
+    }
+    .page3{
+        position: relative;
+       height: 250px;
+        width: 80vw;
+        padding:0px 20px 20px 10px;
+        margin:500px 0px 0px 30px;
+    }
+
+    .page3> :nth-child(1){
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .page3> :nth-child(2){
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    .page3> :nth-child(3){
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    .page3> :nth-child(4){
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    .page4{
+        width: 90vw;
+        height: 15vh;
+       padding-top: 70px;
+        margin: auto;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .page5{
+       
+         height: 180vh;
+         width: 95vw;
+        margin-bottom: 100px;
+     }
+     .text1{
+        
+        position: absolute;
+    top:110px;
+    text-align: center;
+        font-size: medium;
+        font-weight: bolder;
+        
+    }
+     .page5img{
+       
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+    
+    }
+     .page6{
+        width: 100vw;
+        height: 10vh;
+        font-size:25px;
+        font-weight: bold;
+    }
+    .page7{
+        height: 100vh;
+        width: 95vw;
+        margin: auto;
+        position: relative;
+        margin-bottom: 50px;
+
+    
+    }
+    .part7a{
+      position: absolute;
+      top:5px;
+        padding-left: 10px;
+        height: 60vh;
+        width: 80vw;
+        
+    
+    }
+   
+    .part7a> :nth-child(3){
+        height: 70px;
+        width: 280px;
+        margin-left:20px;
+        margin-top: 10px;
+        font-size: smaller;
+    }
+    
+    .barcode{
+        margin-top: 5px;
+        height: 80px;
+        width: 70px;
+        margin: auto;
+    }
+    .part7aimg{
+        width: 70px;
+        display: flex;
+        flex-direction: row;
+     
+        
+    
+    }
+    .part7b{
+      
+        height: 45vh;
+        width: 95vw;
+        position: absolute;
+      /* right: 50px; */
+      left:5px;
+        top:400px;
+        background-image: url(./images/mobile.png);
+        background-position:center;
+        background-size:cover;
+    }
+    .page10{
+       margin-top: 200px;
+    
+    }
+    .page11{
+        width: 95vw;
+        height: 20vh;
+        
+        flex-wrap: wrap;
+    }
+ 
+    a{
+        font-size: smaller;
+    }
+    .page8{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 80vw;
+        height: 100vh;
+        position: relative;
+    } 
+   
+    .page8card{
+        height: 30vh;
+        width: 70vw;
+       
+        position: absolute;
+        top: 400px;
+        margin-left: 40px;
+        padding-left: 10px;
+        margin-bottom: 100px;
+      
+       
+  
+     
+}
+}
